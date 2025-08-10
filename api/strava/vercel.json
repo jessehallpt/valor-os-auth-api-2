@@ -1,5 +1,12 @@
 {
   "crons": [
-    { "path": "/api/strava/refresh", "schedule": "0 0 * * *" }
+    {
+      "path": "/api/strava/refresh?secret=bowerman_super_secret_4821",
+      "schedule": "0 0 * * *"
+    },
+    {
+      "path": "/api/plan/generate-all?secret=bowerman_super_secret_4821",
+      "schedule": "0 1 * * 6"
+    }
   ]
 }
